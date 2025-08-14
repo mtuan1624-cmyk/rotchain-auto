@@ -1,0 +1,23 @@
+
+# Define your campaigns here.
+# You can store this file in the repo OR paste its contents as a GitHub Secret named CAMPAIGNS_YAML.
+#
+# Each campaign has:
+# - name: identifier
+# - mode: "testnet" or "social"
+# - steps: a list of simple steps to run for each wallet
+#
+# Replace the steps with real actions when ready.
+campaigns:
+  - name: "layerzero-testnet"
+    mode: "testnet"
+    steps:
+      - "claim faucet"
+      - "bridge test token"
+      - "swap test token"
+  - name: "zksync-social"
+    mode: "social"
+    steps:
+      - "follow twitter"
+      - "retweet last post"
+      - "join discord"
