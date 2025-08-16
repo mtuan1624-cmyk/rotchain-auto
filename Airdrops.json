@@ -1,0 +1,32 @@
+[
+  {
+    "name": "W-Coin",
+    "desc": "Tham gia mini-app, làm nhiệm vụ mỗi ngày",
+    "link": "https://t.me/wcoin_tapbot/app",
+    "reward": "Token WCOIN",
+    "network": "TON",
+    "status": "open",
+    "ref": true,
+    "tags": ["miniapp", "daily", "referral"]
+  },
+  {
+    "name": "Notcoin",
+    "desc": "Mùa mới mở lại, claim hàng ngày + ref",
+    "link": "https://t.me/notcoin_bot",
+    "reward": "NOT Token",
+    "network": "TON",
+    "status": "open",
+    "ref": true,
+    "tags": ["claim", "daily", "referral"]
+  },
+  {
+    "name": "Hamster Kombat",
+    "desc": "Chơi game Telegram, nâng cấp thành phố, nhận token",
+    "link": "https://t.me/hamster_kombat_bot",
+    "reward": "HAMSTER Token",
+    "network": "TON",
+    "status": "upcoming",
+    "ref": false,
+    "tags": ["game", "miniapp"]
+  }
+]
